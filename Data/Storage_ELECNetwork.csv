@@ -1,0 +1,301 @@
+Node_ELEC,Node_GAS,Storage_ID,Prime Mover,Existing Units [no.],Unit Size [MW],Max New Units Annual [units/year],Max New Units Total [no.],Duration [hours],Charge efficiency [%],Discharge efficiency [%],Loss efficiency [%],Economic Lifetime [years],Lifetime [years],Install Year,Forced Retirement
+1,1,Redwood Coast Airport Microgrid,Li-ion battery,1,2.2,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+1,1,LI01,Li-ion battery,0,10,100,500,4,0.92,0.92,1.3889e-05,15,15,2060,2060
+1,1,LD01,Long-duration storage,0,50,4,20,720,0.6305,0.53,1.1e-08,30,30,2060,2060
+1,1,MD01,Multi-day storage,0,5,100,500,100,0.65,0.65,1.3889e-05,15,15,2060,2060
+2,2,Pacific Union College BESS,Li-ion battery,1,1.0,0,0,2.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+2,2,Bear Canyon,Li-ion battery,1,13.0,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+2,2,West Ford Flat,Li-ion battery,1,25.0,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+2,2,LI02,Li-ion battery,0,10,100,500,4,0.92,0.92,1.3889e-05,15,15,2060,2060
+2,2,LD02,Long-duration storage,0,50,4,20,720,0.6305,0.53,1.1e-08,30,30,2060,2060
+2,2,MD02,Multi-day storage,0,5,100,500,100,0.65,0.65,1.3889e-05,15,15,2060,2060
+3,3,Dynegy Moss Landing Power Plant Hybrid,Li-ion battery,1,300.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+3,3,Dynegy Moss Landing Power Plant Hybrid,Li-ion battery,1,100.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+3,3,Dynegy Moss Landing Power Plant Hybrid,Li-ion battery,1,350.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+3,3,University of California Santa Cruz,Li-ion battery,1,1.0,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+3,3,Silicon Valley Clean Water,Li-ion battery,1,1.0,0,0,2.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+3,3,Elkhorn Battery Energy Storage System,Li-ion battery,1,182.5,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+3,3,D'Arrigo Brothers - Phase 4,Li-ion battery,1,0.5,0,0,2.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+3,3,Gilead Foster City Solar Project,Li-ion battery,1,0.5,0,0,2.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+3,3,LI03,Li-ion battery,0,10,100,500,4,0.92,0.92,1.3889e-05,15,15,2060,2060
+3,3,LD03,Long-duration storage,0,50,4,20,720,0.6305,0.53,1.1e-08,30,30,2060,2060
+3,3,MD03,Multi-day storage,0,5,100,500,100,0.65,0.65,1.3889e-05,15,15,2060,2060
+4,4,Gavilan Community College Solar Project,Li-ion battery,1,0.5,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+4,4,Cal Flats BESS,Li-ion battery,1,60.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+4,4,Google Moffett Park Solar Project,Li-ion battery,1,0.6,0,0,2.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+4,4,West Valley Mission CCD Solar Project,Li-ion battery,1,0.9,0,0,2.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+4,4,SEPV Cuyama Hybrid,Li-ion battery,1,3.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+4,4,LI04,Li-ion battery,0,10,100,500,4,0.92,0.92,1.3889e-05,15,15,2060,2060
+4,4,LD04,Long-duration storage,0,50,4,20,720,0.6305,0.53,1.1e-08,30,30,2060,2060
+4,4,MD04,Multi-day storage,0,5,100,500,100,0.65,0.65,1.3889e-05,15,15,2060,2060
+5,5,LI05,Li-ion battery,0,10,100,500,4,0.92,0.92,1.3889e-05,15,15,2060,2060
+5,5,LD05,Long-duration storage,0,50,4,20,720,0.6305,0.53,1.1e-08,30,30,2060,2060
+5,5,MD05,Multi-day storage,0,5,100,500,100,0.65,0.65,1.3889e-05,15,15,2060,2060
+6,6,"AES ES Alamitos, LLC",Li-ion battery,1,100.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+6,6,DESI-2 Battery Storage Facility,Li-ion battery,1,1.4,0,0,3.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+6,6,Vallecito,Li-ion battery,1,10.0,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+6,6,CSU Long Beach,Li-ion battery,1,2.5,0,0,6.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+6,6,Long Beach Convention Center,Li-ion battery,1,1.5,0,0,6.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+6,6,OCSD,Li-ion battery,1,4.9,0,0,7.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+6,6,Silverstrand Grid Energy Storage System,Li-ion battery,1,11.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+6,6,Saticoy,Li-ion battery,1,100.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+6,6,Cathode (Hinson) BESS,Li-ion battery,1,100.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+6,6,Cathode (Hinson) BESS,Li-ion battery,1,100.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+6,6,Orange Coast College PH2 Solar Project,Li-ion battery,1,2.1,0,0,2.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+6,6,"Goleta Energy Storage, LLC",Li-ion battery,1,60.0,0,0,3.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+6,6,AES ES Alamitos 2 LLC,Li-ion battery,1,82.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+6,6,LI06,Li-ion battery,0,10,100,500,4,0.92,0.92,1.3889e-05,15,15,2060,2060
+6,6,LD06,Long-duration storage,0,50,4,20,720,0.6305,0.53,1.1e-08,30,30,2060,2060
+6,6,MD06,Multi-day storage,0,5,100,500,100,0.65,0.65,1.3889e-05,15,15,2060,2060
+7,7,University of California San Diego Hybri,Li-ion battery,1,2.5,0,0,2.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+7,7,Genentech-Oceanside Hybrid,Li-ion battery,1,2.0,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+7,7,Canyon Crest Academy,Li-ion battery,1,1.0,0,0,3.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+7,7,El Cajon Energy Storage,Li-ion battery,1,7.5,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+7,7,Top Gun Energy Storage,Li-ion battery,1,30.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+7,7,Vista Energy Storage System ,Li-ion battery,1,40.0,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+7,7,Kearny Mesa Storage LLC,Li-ion battery,1,1.0,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+7,7,San Diego International Airport BESS,Li-ion battery,1,2.0,0,0,2.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+7,7,County of San Diego COC Hybrid,Li-ion battery,1,0.4,0,0,2.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+7,7,Kearny North Energy Storage,Li-ion battery,1,10.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+7,7,Kearny South Energy Storage,Li-ion battery,1,10.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+7,7,Gilead Oceanside Solar Project,Li-ion battery,1,0.7,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+7,7,Paradise Energy Storage,Li-ion battery,1,10.0,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+7,7,Clairemont Energy Storage,Li-ion battery,1,10.0,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+7,7,Elliott Energy Storage,Li-ion battery,1,10.0,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+7,7,Melrose BESS,Li-ion battery,1,10.0,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+7,7,Melrose BESS,Li-ion battery,1,10.0,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+7,7,EnerSmart Chula Vista Sub Station,Li-ion battery,1,3.0,0,0,2.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+7,7,EnerSmart Chula Vista Sub Station,Li-ion battery,1,3.0,0,0,2.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+7,7,Amazon SAN3 Solar Project,Li-ion battery,1,2.4,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+7,7,LI07,Li-ion battery,0,10,100,500,4,0.92,0.92,1.3889e-05,15,15,2060,2060
+7,7,LD07,Long-duration storage,0,50,4,20,720,0.6305,0.53,1.1e-08,30,30,2060,2060
+7,7,MD07,Multi-day storage,0,5,100,500,100,0.65,0.65,1.3889e-05,15,15,2060,2060
+8,8,Center Hybrid,Li-ion battery,1,10.0,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+8,8,Ortega Highway Energy Storage,Li-ion battery,1,1.0,0,0,3.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+8,8,Ortega Highway Energy Storage,Li-ion battery,1,1.0,0,0,3.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+8,8,Stanton Energy Reliability Center Hybrid,Li-ion battery,1,10.0,0,0,0.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+8,8,Stanton Energy Reliability Center Hybrid,Li-ion battery,1,10.0,0,0,0.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+8,8,PPA Grand,Li-ion battery,1,2.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+8,8,Baldwin,Li-ion battery,1,1.0,0,0,7.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+8,8,HEBT Irvine 1,Li-ion battery,1,1.0,0,0,6.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+8,8,HEBT Irvine 1,Li-ion battery,1,4.5,0,0,6.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+8,8,HEBT Irvine 2,Li-ion battery,1,2.5,0,0,6.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+8,8,HEBT Irvine 2,Li-ion battery,1,3.3,0,0,6.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+8,8,Orange County Energy Storage 2,Li-ion battery,1,9.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+8,8,Orange County Energy Storage 3,Li-ion battery,1,6.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+8,8,Hecate Energy Johanna Facility,Li-ion battery,1,10.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+8,8,Hecate Energy Johanna Facility,Li-ion battery,1,10.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+8,8,Allergan,Li-ion battery,1,1.5,0,0,6.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+8,8,Baker,Li-ion battery,1,1.2,0,0,5.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+8,8,DATS,Li-ion battery,1,1.0,0,0,6.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+8,8,Downey,Li-ion battery,1,2.0,0,0,6.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+8,8,LAWRP,Li-ion battery,1,1.0,0,0,5.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+8,8,SOCCD,Li-ion battery,1,1.3,0,0,6.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+8,8,"Johanna Energy Center, LLC",Li-ion battery,1,20.0,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+8,8,Santa Ana Storage 2,Li-ion battery,1,20.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+8,8,Stanton Battery Energy Storage,Li-ion battery,1,68.8,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+8,8,BCE Los Alamitos 2,Li-ion battery,1,10.0,0,0,0.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+8,8,BCE Los Alamitos 1,Li-ion battery,1,10.0,0,0,0.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+8,8,Cald BESS,Li-ion battery,1,100.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+8,8,LI08,Li-ion battery,0,10,100,500,4,0.92,0.92,1.3889e-05,15,15,2060,2060
+8,8,LD08,Long-duration storage,0,50,4,20,720,0.6305,0.53,1.1e-08,30,30,2060,2060
+8,8,MD08,Multi-day storage,0,5,100,500,100,0.65,0.65,1.3889e-05,15,15,2060,2060
+9,9,VESI Pomona,Li-ion battery,1,20.0,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+9,9,VESI Pomona,Li-ion battery,1,20.0,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+9,9,Biola University Hybrid,Li-ion battery,1,0.3,0,0,2.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+9,9,Glendale Battery Energy Storage System,Li-ion battery,1,2.0,0,0,0.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+9,9,Acorn I Energy Storage LLC,Li-ion battery,1,2.0,0,0,3.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+9,9,Yorktown Battery Energy Storage Facility,Li-ion battery,1,3.0,0,0,3.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+9,9,Cadillac Battery Energy Storage Facility,Li-ion battery,1,3.5,0,0,3.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+9,9,Walnut Unified School District Walnut HS,Li-ion battery,1,0.5,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+9,9,Santa Paula Energy Storage LLC,Li-ion battery,1,30.0,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+9,9,Gilead Sciences La Verne Rooftop Solar,Li-ion battery,1,1.1,0,0,2.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+9,9,Placerita ESS,Li-ion battery,1,88.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+9,9,LI09,Li-ion battery,0,10,100,500,4,0.92,0.92,1.3889e-05,15,15,2060,2060
+9,9,LD09,Long-duration storage,0,50,4,20,720,0.6305,0.53,1.1e-08,30,30,2060,2060
+9,9,MD09,Multi-day storage,0,5,100,500,100,0.65,0.65,1.3889e-05,15,15,2060,2060
+10,10,Grapeland Hybrid,Li-ion battery,1,10.0,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+10,10,Pala Energy Storage Yard,Li-ion battery,1,1.0,0,0,2.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+10,10,Escondido Energy Storage,Li-ion battery,1,30.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+10,10,Mira Loma Energy Storage Facility,Li-ion battery,1,10.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+10,10,Mira Loma Energy Storage Facility,Li-ion battery,1,10.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+10,10,Vanadium Redox Flow Battery Plant,Li-ion battery,1,2.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+10,10,Fallbrook Energy Storage,Li-ion battery,1,40.0,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+10,10,Gateway Energy Storage System,Li-ion battery,1,250.0,0,0,3.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+10,10,Separator (Etiwanda) BESS,Li-ion battery,1,112.5,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+10,10,Grossmont-Cuyamaca-Cuyamaca Col. Solar &,Li-ion battery,1,1.0,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+10,10,Pala Gomez Creek BESS,Li-ion battery,1,10.0,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+10,10,Condor Energy Storage LLC,Li-ion battery,1,200.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+10,10,Beaumont BESS,Li-ion battery,1,116.6,0,0,3.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+10,10,Menifee Power Bank,Li-ion battery,1,230.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+10,10,Menifee Power Bank,Li-ion battery,1,230.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+10,10,Menifee Power Bank,Li-ion battery,1,50.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+10,10,Menifee Power Bank,Li-ion battery,1,110.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+10,10,Valley Center 85,Li-ion battery,1,85.0,0,0,2.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+10,10,Valley Center 54,Li-ion battery,1,54.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+10,10,Inland Empire Energy Storage,Li-ion battery,1,70.0,0,0,3.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+10,10,LI10,Li-ion battery,0,10,100,500,4,0.92,0.92,1.3889e-05,15,15,2060,2060
+10,10,LD10,Long-duration storage,0,50,4,20,720,0.6305,0.53,1.1e-08,30,30,2060,2060
+10,10,MD10,Multi-day storage,0,5,100,500,100,0.65,0.65,1.3889e-05,15,15,2060,2060
+10,10,Lake Hodges Hydroelectric Facility,Pumped hydro storage,1,21.0,0,0,8.0,0.9,0.9,1.3889e-05,50,50,2060,2060
+10,10,Lake Hodges Hydroelectric Facility,Pumped hydro storage,1,21.0,0,0,8.0,0.9,0.9,1.3889e-05,50,50,2060,2060
+11,11,Sierra Nevada Brewing Co Hybrid,Li-ion battery,1,0.5,0,0,2.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+11,11,Tierra Buena Energy Storage,Li-ion battery,1,2.5,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+11,11,Tierra Buena Energy Storage,Li-ion battery,1,2.5,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+11,11,Lincoln WWTF Hybrid,Li-ion battery,1,1.0,0,0,2.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+11,11,LI11,Li-ion battery,0,10,100,500,4,0.92,0.92,1.3889e-05,15,15,2060,2060
+11,11,LD11,Long-duration storage,0,50,4,20,720,0.6305,0.53,1.1e-08,30,30,2060,2060
+11,11,MD11,Multi-day storage,0,5,100,500,100,0.65,0.65,1.3889e-05,15,15,2060,2060
+11,11,Edward C Hyatt,Pumped hydro storage,1,97.7,0,0,8.0,0.9,0.9,1.3889e-05,50,50,2060,2060
+11,11,Edward C Hyatt,Pumped hydro storage,1,97.7,0,0,8.0,0.9,0.9,1.3889e-05,50,50,2060,2060
+11,11,Edward C Hyatt,Pumped hydro storage,1,97.7,0,0,8.0,0.9,0.9,1.3889e-05,50,50,2060,2060
+11,11,Thermalito,Pumped hydro storage,1,27.5,0,0,8.0,0.9,0.9,1.3889e-05,50,50,2060,2060
+11,11,Thermalito,Pumped hydro storage,1,27.5,0,0,8.0,0.9,0.9,1.3889e-05,50,50,2060,2060
+11,11,Thermalito,Pumped hydro storage,1,27.5,0,0,8.0,0.9,0.9,1.3889e-05,50,50,2060,2060
+12,12,"Cascade Energy Storage, LLC",Li-ion battery,1,25.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+12,12,UC Merced Solar Hybrid,Li-ion battery,1,0.5,0,0,2.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+12,12,Diablo Energy Storage,Li-ion battery,1,200.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+12,12,University of the Pacific,Li-ion battery,1,1.0,0,0,2.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+12,12,North Central Valley,Li-ion battery,1,132.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+12,12,Proxima,Li-ion battery,1,162.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+12,12,CA Manteca 730 Spreckels Ave,Li-ion battery,1,1.5,0,0,2.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+12,12,Bishop Ranch - BR 1-Y,Li-ion battery,1,0.7,0,0,2.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+12,12,Bishop Ranch - BR 8-P,Li-ion battery,1,0.5,0,0,2.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+12,12,Paulsell,Li-ion battery,1,15.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+12,12,Bishop Ranch BR 1-X,Li-ion battery,1,0.5,0,0,2.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+12,12,CA- US Foods- Livermore,Li-ion battery,1,1.2,0,0,2.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+12,12,LI12,Li-ion battery,0,10,100,500,4,0.92,0.92,1.3889e-05,15,15,2060,2060
+12,12,LD12,Long-duration storage,0,50,4,20,720,0.6305,0.53,1.1e-08,30,30,2060,2060
+12,12,MD12,Multi-day storage,0,5,100,500,100,0.65,0.65,1.3889e-05,15,15,2060,2060
+12,12,ONeill,Pumped hydro storage,1,4.2,0,0,8.0,0.9,0.9,1.3889e-05,50,50,2060,2060
+12,12,ONeill,Pumped hydro storage,1,4.2,0,0,8.0,0.9,0.9,1.3889e-05,50,50,2060,2060
+12,12,ONeill,Pumped hydro storage,1,4.2,0,0,8.0,0.9,0.9,1.3889e-05,50,50,2060,2060
+12,12,ONeill,Pumped hydro storage,1,4.2,0,0,8.0,0.9,0.9,1.3889e-05,50,50,2060,2060
+12,12,ONeill,Pumped hydro storage,1,4.2,0,0,8.0,0.9,0.9,1.3889e-05,50,50,2060,2060
+12,12,ONeill,Pumped hydro storage,1,4.2,0,0,8.0,0.9,0.9,1.3889e-05,50,50,2060,2060
+12,12,W R Gianelli,Pumped hydro storage,1,53.0,0,0,8.0,0.9,0.9,1.3889e-05,50,50,2060,2060
+12,12,W R Gianelli,Pumped hydro storage,1,53.0,0,0,8.0,0.9,0.9,1.3889e-05,50,50,2060,2060
+12,12,W R Gianelli,Pumped hydro storage,1,53.0,0,0,8.0,0.9,0.9,1.3889e-05,50,50,2060,2060
+12,12,W R Gianelli,Pumped hydro storage,1,53.0,0,0,8.0,0.9,0.9,1.3889e-05,50,50,2060,2060
+12,12,W R Gianelli,Pumped hydro storage,1,53.0,0,0,8.0,0.9,0.9,1.3889e-05,50,50,2060,2060
+12,12,W R Gianelli,Pumped hydro storage,1,53.0,0,0,8.0,0.9,0.9,1.3889e-05,50,50,2060,2060
+12,12,W R Gianelli,Pumped hydro storage,1,53.0,0,0,8.0,0.9,0.9,1.3889e-05,50,50,2060,2060
+12,12,W R Gianelli,Pumped hydro storage,1,53.0,0,0,8.0,0.9,0.9,1.3889e-05,50,50,2060,2060
+13,13,Fresno Cogen Partners,Li-ion battery,1,16.0,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+13,13,RE Mustang LLC,Li-ion battery,1,75.0,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+13,13,RE Tranquillity,Li-ion battery,1,37.0,0,0,3.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+13,13,RE Tranquillity,Li-ion battery,1,35.0,0,0,5.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+13,13,Henrietta D Energy Storage LLC,Li-ion battery,1,10.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+13,13,Fresno Bullard High School Hybrid,Li-ion battery,1,0.4,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+13,13,Fresno Hoover High School Hybrid,Li-ion battery,1,0.2,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+13,13,Fresno Sunnyside High School Hybrid,Li-ion battery,1,0.3,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+13,13,Slate Hybrid,Li-ion battery,1,33.8,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+13,13,Slate Hybrid,Li-ion battery,1,50.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+13,13,Slate Hybrid,Li-ion battery,1,10.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+13,13,Slate Hybrid,Li-ion battery,1,46.5,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+13,13,Solar Blue,Li-ion battery,1,225.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+13,13,Chestnut,Li-ion battery,1,135.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+13,13,"Fifth Standard Solar PV, LLC (Hybrid)",Li-ion battery,1,137.0,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+13,13,Scarlet Solar (CA),Li-ion battery,1,40.0,0,0,5.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+13,13,Sealed Air Madera Solar Project,Li-ion battery,1,0.8,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+13,13,Amazon Bakersfield 1 Solar Project,Li-ion battery,1,1.6,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+13,13,Lakeview Battery Storage Facility,Li-ion battery,1,1.2,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+13,13,Bottleneck Energy Storage,Li-ion battery,1,80.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+13,13,Scarlet II Hybrid,Li-ion battery,1,150.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+13,13,North Juvenile Detention Center Solar,Li-ion battery,1,0.3,0,0,0.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+13,13,LI13,Li-ion battery,0,10,100,500,4,0.92,0.92,1.3889e-05,15,15,2060,2060
+13,13,LD13,Long-duration storage,0,50,4,20,720,0.6305,0.53,1.1e-08,30,30,2060,2060
+13,13,MD13,Multi-day storage,0,5,100,500,100,0.65,0.65,1.3889e-05,15,15,2060,2060
+14,14,RE Garland,Li-ion battery,1,45.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+14,14,RE Garland,Li-ion battery,1,43.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+14,14,Springbok 3 Solar Farm Hybrid,Li-ion battery,1,1.5,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+14,14,"Eland Solar & Storage Center, Phase 1 Hy",Li-ion battery,1,150.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+14,14,Beacon BESS 1,Li-ion battery,1,20.0,0,0,0.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+14,14,Luna Storage,Li-ion battery,1,100.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+14,14,"Golden Field Solar III, LLC",Li-ion battery,1,147.0,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+14,14,Resurgence Solar,Li-ion battery,1,75.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+14,14,SEPV Sierra,Li-ion battery,1,8.3,0,0,0.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+14,14,Hudson - High Desert Hybrid,Li-ion battery,1,50.0,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+14,14,"Rabbitbrush Solar, LLC",Li-ion battery,1,20.0,0,0,2.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+14,14,Sanborn BESS 1,Li-ion battery,1,100.0,0,0,2.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+14,14,Sanborn BESS 2,Li-ion battery,1,100.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+14,14,Daggett 2,Li-ion battery,1,131.0,0,0,0.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+14,14,Daggett 3,Li-ion battery,1,149.0,0,0,0.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+14,14,Edwards Sanborn E3,Li-ion battery,1,11.0,0,0,3.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+14,14,Edwards Sanborn E1A,Li-ion battery,1,144.0,0,0,2.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+14,14,Edwards Sanborn E2,Li-ion battery,1,120.0,0,0,2.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+14,14,Edwards Sanborn S3,Li-ion battery,1,33.0,0,0,2.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+14,14,Edwards Sanborn S1,Li-ion battery,1,40.0,0,0,2.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+14,14,"BigBeau Solar, LLC",Li-ion battery,1,22.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+14,14,"BigBeau Solar, LLC",Li-ion battery,1,18.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+14,14,Sanborn BESS 3,Li-ion battery,1,169.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+14,14,Sanborn BESS 4,Li-ion battery,1,47.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+14,14,Edwards Sanborn E1B,Li-ion battery,1,136.0,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+14,14,Edwards Sanborn E4,Li-ion battery,1,100.0,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+14,14,Edwards Sanborn E5,Li-ion battery,1,47.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+14,14,Edwards Sanborn S4,Li-ion battery,1,18.8,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+14,14,Lancaster Area Battery,Li-ion battery,1,127.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+14,14,Boulevard Energy Storage,Li-ion battery,1,10.0,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+14,14,Sunlight Storage II,Li-ion battery,1,230.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+14,14,Baldy Mesa Solar & Storage,Li-ion battery,1,75.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+14,14,Resurgence Solar II,Li-ion battery,1,40.0,0,0,8.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+14,14,Tumbleweed Energy Storage,Li-ion battery,1,50.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+14,14,Tumbleweed Energy Storage,Li-ion battery,1,75.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+14,14,Estrella Solar & Storage,Li-ion battery,1,28.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+14,14,Raceway Solar & Storage,Li-ion battery,1,80.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+14,14,Baldy Mesa 2_Silver Peak Hybrid,Li-ion battery,1,25.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+14,14,"Lockhart ESS, LLC",Li-ion battery,1,45.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+14,14,LI14,Li-ion battery,0,10,100,500,4,0.92,0.92,1.3889e-05,15,15,2060,2060
+14,14,LD14,Long-duration storage,0,50,4,20,720,0.6305,0.53,1.1e-08,30,30,2060,2060
+14,14,MD14,Multi-day storage,0,5,100,500,100,0.65,0.65,1.3889e-05,15,15,2060,2060
+15,15,El Centro Hybrid,Li-ion battery,1,30.0,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+15,15,McCoy Solar Energy Project Hybrid,Li-ion battery,1,230.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+15,15,Desert Quartzite,Li-ion battery,1,150.0,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+15,15,"Blythe Solar II, LLC",Li-ion battery,1,115.0,0,0,5.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+15,15,"Blythe Solar 110, LLC",Li-ion battery,1,63.0,0,0,5.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+15,15,"Blythe Solar III, LLC Hybrid",Li-ion battery,1,115.0,0,0,5.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+15,15,"Blythe Solar IV, LLC",Li-ion battery,1,47.0,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+15,15,Borrego Springs Energy Storage,Li-ion battery,1,0.5,0,0,3.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+15,15,Borrego Springs Energy Storage,Li-ion battery,1,1.0,0,0,3.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+15,15,Wildcat I Energy Storage LLC,Li-ion battery,1,3.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+15,15,Desert Harvest II LLC,Li-ion battery,1,35.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+15,15,"Maverick Solar 6, LLC",Li-ion battery,1,50.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+15,15,Arlington Energy Center II,Li-ion battery,1,132.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+15,15,Arlington Energy Center III,Li-ion battery,1,110.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+15,15,LeConte Energy Storage,Li-ion battery,1,125.0,0,0,2.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+15,15,Blythe Mesa Solar II,Li-ion battery,1,112.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+15,15,Crimson,Li-ion battery,1,200.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+15,15,Crimson,Li-ion battery,1,150.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+15,15,Vikings Energy Farm,Li-ion battery,1,150.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+15,15,Oberon Solar Project,Li-ion battery,1,125.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+15,15,Oberon II Solar Project,Li-ion battery,1,125.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+15,15,Victory Pass,Li-ion battery,1,50.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+15,15,Arica Solar,Li-ion battery,1,136.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+15,15,Sunlight Storage,Li-ion battery,1,230.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+15,15,CED West Side Canal Battery Storage,Li-ion battery,1,131.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+15,15,Desert Peak Energy Storage I,Li-ion battery,1,325.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+15,15,Desert Peak Energy Storage II,Li-ion battery,1,75.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+15,15,Holtville,Li-ion battery,1,30.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+15,15,LI15,Li-ion battery,0,10,100,500,4,0.92,0.92,1.3889e-05,15,15,2060,2060
+15,15,LD15,Long-duration storage,0,50,4,20,720,0.6305,0.53,1.1e-08,30,30,2060,2060
+15,15,MD15,Multi-day storage,0,5,100,500,100,0.65,0.65,1.3889e-05,15,15,2060,2060
+16,16,SunAnza,Li-ion battery,1,2.0,0,0,2.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+16,16,SunAnza,Li-ion battery,1,2.4,0,0,2.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+16,16,Coso Battery Storage,Li-ion battery,1,60.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+16,16,Sagebrush ESS,Li-ion battery,1,80.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+16,16,Sagebrush Solar 2 ESS 40,Li-ion battery,1,40.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+16,16,Sagebrush Solar 2 ESS 59,Li-ion battery,1,59.0,0,0,4.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+16,16,Mojave 16/17/18 BESS,Li-ion battery,1,77.0,0,0,1.0,0.92,0.92,1.3889e-05,15,15,2060,2060
+16,16,LI16,Li-ion battery,0,10,100,500,4,0.92,0.92,1.3889e-05,15,15,2060,2060
+16,16,LD16,Long-duration storage,0,50,4,20,720,0.6305,0.53,1.1e-08,30,30,2060,2060
+16,16,MD16,Multi-day storage,0,5,100,500,100,0.65,0.65,1.3889e-05,15,15,2060,2060
+16,16,J S Eastwood,Pumped hydro storage,1,199.8,0,0,8.0,0.9,0.9,1.3889e-05,50,50,2060,2060
+16,16,Castaic,Pumped hydro storage,1,271.0,0,0,8.0,0.9,0.9,1.3889e-05,50,50,2060,2060
+16,16,Castaic,Pumped hydro storage,1,271.0,0,0,8.0,0.9,0.9,1.3889e-05,50,50,2060,2060
+16,16,Castaic,Pumped hydro storage,1,271.0,0,0,8.0,0.9,0.9,1.3889e-05,50,50,2060,2060
+16,16,Castaic,Pumped hydro storage,1,271.0,0,0,8.0,0.9,0.9,1.3889e-05,50,50,2060,2060
+16,16,Castaic,Pumped hydro storage,1,271.0,0,0,8.0,0.9,0.9,1.3889e-05,50,50,2060,2060
+16,16,Castaic,Pumped hydro storage,1,271.0,0,0,8.0,0.9,0.9,1.3889e-05,50,50,2060,2060
+16,16,Helms Pumped Storage,Pumped hydro storage,1,351.0,0,0,8.0,0.9,0.9,1.3889e-05,50,50,2060,2060
+16,16,Helms Pumped Storage,Pumped hydro storage,1,351.0,0,0,8.0,0.9,0.9,1.3889e-05,50,50,2060,2060
+16,16,Helms Pumped Storage,Pumped hydro storage,1,351.0,0,0,8.0,0.9,0.9,1.3889e-05,50,50,2060,2060
