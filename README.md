@@ -231,9 +231,9 @@ No license has been specified for this code.
 If you use this model, please cite the manuscript above and the following earlier publications describing BRIDGES:
 
 - G. Von Wald, K. Sundar, E. Sherwin, A. Zlotnik, and A. Brandt, "Optimal gas-electric energy system decarbonization planning," *Advances in Applied Energy*, vol. 6, 2022. doi:10.1016/j.adapen.2022.100086
-- D. M. Saad, M. Sodwatana, E. D. Sherwin, and A. R. Brandt, "Energy storage in combined gas-electric energy transitions models: The case of California," *Applied Energy*, vol. 385, p. 125480, 2025. doi:10.1016/j.apenergy.2025.125480
+- D. M. Saad, M. Sodwatana, E. D. Sherwin, and A. R. Brandt, "Energy storage in combined gas-electric energy transitions models: The case of California," *Applied Energy*, vol. 385, 2025. doi:10.1016/j.apenergy.2025.125480
 - M. Sodwatana, D. M. Saad, M. Ahumada-Paras, and A. R. Brandt, "Appliance decarbonization and its impacts on California's energy transition," *Applied Energy*, vol. 390, 2025. doi:10.1016/j.apenergy.2025.125769
-- M. J. Aljubran, D. M. Saad, M. Sodwatana, A. R. Brandt, and R. N. Horne, "The value of enhanced geothermal systems for the energy transition in California," *Sustainable Energy & Fuels*, vol. 9, pp. 1317–1337, 2025. doi:10.1039/D4SE01520G
+- M. J. Aljubran, D. M. Saad, M. Sodwatana, A. R. Brandt, and R. N. Horne, "The value of enhanced geothermal systems for the energy transition in California," *Sustainable Energy & Fuels*, vol. 9, 2025. doi:10.1039/D4SE01520G
 - D. M. Saad, M. Ahumada-Paras, M. Sodwatana, and A. R. Brandt, "Impact of multi-sector carbon tax for achieving deep decarbonization," in *2025 IEEE Power & Energy Society General Meeting (PESGM)*, 2025. doi:10.1109/PESGM52009.2025.11224977
 
 ## Contact
