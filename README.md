@@ -44,7 +44,7 @@ The model has been tested on:
 No non-standard hardware is required. However, full model runs are computationally intensive:
 
 - **Full runs (as in the manuscript):** run on Stanford's Sherlock high-performance computing cluster, typically using 32-core AMD EPYC 7502 processors and 50–100 GB of RAM. A full run with 10 representative days and five investment periods takes approximately 2–3 hours.
-- **Demo run (see Section 3):** can be run on a standard desktop or laptop (tested on an Apple M2 with 16 GB of RAM).
+- **Demo run (see Section 3):** uses one investment period and 4 representative days, and can be run on a standard desktop or laptop (tested on an Apple M2 with 16 GB of RAM).
 
 ---
 
@@ -124,13 +124,16 @@ No separate demo dataset is needed. All input data is provided in the `Data/` fo
 ### Running the demo
 
 1. Open the parameters file, `core/Parameters/parameters_default.jl`.
-2. Change the number of investment periods from the default of 5 to 1:
+2. Reduce the number of investment periods from the default of 5 to 1, and the number of representative days from the default of 10 to 4:
 
    ```julia
-   T_inv = 1   # default: 5
+   T_inv = 1       # default: 5
+   N_Periods = 4   # default: 10
    ```
 
-   With `T_inv = 5`, the model optimizes across five investment periods (2025, 2030, 2035, 2040, 2045). Setting `T_inv = 1` solves only the first investment period (2025). This greatly reduces the problem size while exercising the full model workflow: data loading, clustering of representative days, model construction, optimization and output writing.
+   With `T_inv = 5`, the model optimizes across five investment periods (2025, 2030, 2035, 2040, 2045). Setting `T_inv = 1` solves only the first investment period (2025). Setting `N_Periods = 4` clusters the hourly input data into 4 representative days instead of 10, which reduces the number of operational time steps. Together, these settings greatly reduce the problem size while still running the full model workflow: data loading, clustering of representative days, model construction, optimization and output writing.
+
+   Because the demo uses fewer investment periods and representative days, its results are not directly comparable to those reported in the manuscript. See Section 5 to reproduce the manuscript results.
 
 3. From the repository folder, run:
 
@@ -144,8 +147,10 @@ At the end of the run, `core/data_exports.jl` exports the results to a new, uniq
 
 ### Expected run time
 
-- About 10 minutes on an HPC node (Sherlock cluster, see Section 1)
-- About 30–60 minutes on an Apple M2 with 16 GB of RAM
+The following run times were measured with the demo settings (`T_inv = 1`, `N_Periods = 4`):
+
+- About 4–5 minutes on an HPC node (Sherlock cluster, see Section 1)
+- About 6–8 minutes on an Apple M2 with 16 GB of RAM
 
 ---
 
@@ -181,12 +186,12 @@ To run the model with your own data, replace or edit the files in `Data/` while 
 
 Scenarios and model parameters are set in `parameters_default.jl`. Key parameters include:
 
-| Parameter | Default | Description |
-|---|---|---|
-| `T_inv` | 5 | Number of investment periods (2025–2045 in 5-year steps) |
-| `N_Periods` | 10 | Number of representative days from clustering |
-| `heatElectrification_ON` | 1 | Allows electrified heating technologies for industrial process heat (1 = on, 0 = off) |
-| `DACCS4industrialHeat_ON` | 1 | Allows carbon management systems for industrial process heat (1 = on, 0 = off) |
+| Parameter | Default | Demo | Description |
+|---|---|---|---|
+| `T_inv` | 5 | 1 | Number of investment periods (2025–2045 in 5-year steps) |
+| `N_Periods` | 10 | 4 | Number of representative days from clustering |
+| `heatElectrification_ON` | 1 | 1 | Allows electrified heating technologies for industrial process heat (1 = on, 0 = off) |
+| `DACCS4industrialHeat_ON` | 1 | 1 | Allows carbon management systems for industrial process heat (1 = on, 0 = off) |
 
 The default settings correspond to the **baseline scenario** in the manuscript: a least-cost, net-zero California energy system by 2045, with electrified heating and carbon management systems allowed.
 
@@ -212,7 +217,7 @@ This runs the scenario currently set in `parameters_default.jl` and optimizes th
 
 To reproduce the quantitative results in the manuscript:
 
-1. **Baseline scenario:** run the model with the default `parameters_default.jl` (`T_inv = 5`, `N_Periods = 10`, `heatElectrification_ON = 1`, `DACCS4industrialHeat_ON = 1`). Both electrified heating and carbon management systems are allowed. Expected run time is approximately 2–3 hours on a 32-core node with 50–100 GB of RAM.
+1. **Baseline scenario:** run the model with the default `parameters_default.jl` (`T_inv = 5`, `N_Periods = 10`, `heatElectrification_ON = 1`, `DACCS4industrialHeat_ON = 1`). Both electrified heating and carbon management systems are allowed. Expected run time is approximately 2–3 hours on a 32-core node with 50–100 GB of RAM. If you ran the demo first, set `T_inv` and `N_Periods` back to their defaults before running.
 2. **Other scenarios:** change the following switches in `parameters_default.jl` and rerun the model:
    - **Electrified heating scenario:** set `DACCS4industrialHeat_ON = 0` (carbon management systems for industrial heat not allowed).
    - **Carbon management scenario:** set `heatElectrification_ON = 0` (electrified heating not allowed).
