@@ -78,9 +78,9 @@ if allsector_emissions_constraint == 1
     # constraint on CCS for gas-use
     @constraint(m, [I = 1:T_inv, T = 1:T_ops, t = 1:t_ops, n = 1:NODES_GAS], sum(CDR_NodalLoc_ELEC[n,d] * CDR_dispatch[I,T,t,d] / carbonRemoved_CDR[d] for d in findall(idx_CDR_CCScombustion_gasUse)) <= EF_NG * CDR_Demand_fromGAS[I,T,t,n])
     
-    if DACCS4industrialHeat_ON == 0
+    if CM4industrialHeat_ON == 0
         #
-        println("DACCS will not be used for industrial heat.")
+        println("Carbon Management will not be used for industrial heat.")
         ### DAC ONLY
         # total CDR removed by DAC is at most the fugitive emissions + remaining that wasnt captured by CCS-process
         # @constraint(m, [I = 1:T_inv], sum( weights[I,T]*8760/t_ops * sum( sum( CDR_dispatch[I,T,t,d] for d in findall(idx_CDR_DACCS) ) for t = 1:t_ops ) for T = 1:T_ops ) 
@@ -96,7 +96,7 @@ if allsector_emissions_constraint == 1
         @constraint(m, [I = T_inv, T = 1:T_ops, t = 1:t_ops, n = 1:NODES_GAS], Industrial_HeatDemand_fromGAS_heatMagnitude[I,T,t,n] == 0)
 
     else
-        println("DACCS will be used for industrial heat.")
+        println("Carbon Management will be used for industrial heat.")
         # constraint on CCS to being limited to utilized industrial gas
         @constraint(m, [I = 1:T_inv, T = 1:T_ops, t = 1:t_ops, n = 1:NODES_GAS], sum(CDR_NodalLoc_ELEC[n,d] * CDR_dispatch[I,T,t,d] / carbonRemoved_CDR[d] for d in findall(idx_CDR_CCScombustion_all)) <= EF_NG * (CDR_Demand_fromGAS[I,T,t,n] + Industrial_HeatDemand_fromGAS[I,T,t,n]) )
         # constraint on each service type; in the most common industry case, we constrain CCS based on temperature

@@ -102,14 +102,12 @@
     # ELEC Storage
     + costs_ELECSTORAGEcapital[i]
     + costs_ELECSTORAGEoperating[i]
-    ### RONDO EDIT
     # Heat Storage
     + costs_HEATSTORAGEcapital[i] + costs_HEATSTORAGE_steamTurbine[i]
     + costs_HEATSTORAGEoperating[i]
     # P2H
     + costs_P2Hcapital[i]
     + costs_P2Hoperating[i]
-    ### RONDO EDIT
     # Appliances
     + costs_appliances[i]
     # P2G

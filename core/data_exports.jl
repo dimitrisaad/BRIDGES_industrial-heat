@@ -2306,12 +2306,16 @@ elec_invPeriod = JuMP.value.(sum(weights[:,T].*8760/t_ops.*sum(sum( sum(CDR_Noda
 output_elecDemand[key] = elec_invPeriod
 
 
-
-## Industrial Electricity Demand
-key = "Non-heat Industrial Electricity Demand"
-elec_invPeriod = JuMP.value.(sum(weights[:,T].*8760/t_ops.*sum(sum( sum(INDUSTRIAL_NodalLoc_ELEC[n,a]*(unitsremaining_INDUSTRIAL[:,a])*IndustrialProfiles_ELEC[T,t,a]*IndustrialPeakDemand[a].*decline_heatDemand[a,:] for a = 1:INDUSTRIAL) for n = 1:NODES_GAS) for t = 1:t_ops) for T = 1:T_ops))
-output_elecDemand[key] = elec_invPeriod
-
+try
+    ## Industrial Electricity Demand
+    key = "Non-heat Industrial Electricity Demand"
+    elec_invPeriod = [JuMP.value(sum(weights[I,T]*8760/t_ops*sum(sum(sum(
+            INDUSTRIAL_NodalLoc_ELEC[n,a]*unitsremaining_INDUSTRIAL[I,a]*IndustrialProfiles_ELEC[T,t,a]*IndustrialPeakDemand[a]*decline_heatDemand[a,I]
+            for a = 1:INDUSTRIAL) for n = 1:NODES_ELEC) for t = 1:t_ops) for T = 1:T_ops)) for I = 1:T_inv]
+    output_elecDemand[key] = elec_invPeriod
+catch
+    print("Did not save.")
+end
 
 
 
@@ -3246,7 +3250,7 @@ try
     # Save the DataFrame to a CSV file
     CSV.write(outputName_heatCapacity, df_heatCapacity)
 catch
-    println("Caught capacities")
+    println("Did not save.")
 end
 
 
@@ -3306,7 +3310,7 @@ try
     # Save the DataFrame to a CSV file
     CSV.write(outputName_heatEnergyOutput, df_heatEnergyOutput)
 catch
-    println("Caught energy flows")
+    println("Did not save.")
 end
 
 

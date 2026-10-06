@@ -490,6 +490,8 @@ println("")
 
 
 ### CDR
+# Here, CDR is a misnomer. It is a remnant of the first addition to this file — direct air capture systems — prior to adding CCS
+# the file name remained CDR, despite including point-source CCS systems. This should be renamed to carbon management in future versions
 carbonDioxideRemoval = CSV.read("$(foldername)/CarbonDioxideRemoval" * CDR_case * ".csv",DataFrame)
 # filter
 if noSolidSorbent == 1

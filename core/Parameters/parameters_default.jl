@@ -438,7 +438,7 @@ processEmissions_ON            = 1 * industrialHeat_ON
 
 
 # industrial heat: how to abate emissions?
-DACCS4industrialHeat_ON = 1 * industrialHeat_ON
+CM4industrialHeat_ON = 1 * industrialHeat_ON
 heatElectrification_ON  = 1 * industrialHeat_ON
 heatStorage_ON = 1 * heatElectrification_ON
 #
@@ -601,7 +601,7 @@ println("If yes, which case?: ", CDR_case)
 println("Are policy targets enforced?: ", DACPolicyTargets_ON)
 println("IRA DAC 45Q tax credit value: ", IRA_DAC_taxCredit)
 
-println("Is CCS used for industrial heat abatement?: ", DACCS4industrialHeat_ON)
+println("Is CCS/DACCS used for industrial heat abatement?: ", CM4industrialHeat_ON)
 
 println("Refinery output case: ", refineryCase)
 
