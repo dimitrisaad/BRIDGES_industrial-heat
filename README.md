@@ -240,6 +240,7 @@ If you use this model, please cite the manuscript above and the following earlie
 - M. Sodwatana, D. M. Saad, M. Ahumada-Paras, and A. R. Brandt, "Appliance decarbonization and its impacts on California's energy transition," *Applied Energy*, vol. 390, 2025. [doi:10.1016/j.apenergy.2025.125769](https://doi.org/10.1016/j.apenergy.2025.125769)
 - M. J. Aljubran, D. M. Saad, M. Sodwatana, A. R. Brandt, and R. N. Horne, "The value of enhanced geothermal systems for the energy transition in California," *Sustainable Energy & Fuels*, vol. 9, 2025. [doi:10.1039/D4SE01520G](https://doi.org/10.1039/D4SE01520G)
 - D. M. Saad, M. Ahumada-Paras, M. Sodwatana, and A. R. Brandt, "Impact of multi-sector carbon tax for achieving deep decarbonization," in *2025 IEEE Power & Energy Society General Meeting (PESGM)*, 2025. [doi:10.1109/PESGM52009.2025.11224977](https://doi.org/10.1109/PESGM52009.2025.11224977)
+- D. M. Saad, K. Sievert, M. Sodwatana, M. Heyer, A. Scott, B. Steffen and A. R. Brandt, "The scale of direct air capture in a net-zero California," *International Journal of Greenhouse Gas Control*, 2026. [doi:10.1016/j.ijggc.2026.104809](https://doi.org/10.1016/j.ijggc.2026.104809)
 
 
 ## Contact
